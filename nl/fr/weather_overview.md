@@ -17,7 +17,7 @@ lastupdated: "2016-07-01"
 A l'aide d'{{site.data.keyword.weatherfull}}, incorporez les données météorologiques de The Weather Company (TWC) à vos applications {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-Vous pouvez ajouter des observations et des prévisions météorologiques à votre application {{site.data.keyword.Bluemix_notm}} et afficher la météo d'une zone identifiée par une géolocalisation à l'aide des [API REST d'Insights for Weather](https://twcservice.{APPDomain}/rest-api/){:new_window}.
+Vous pouvez ajouter des observations et des prévisions météorologiques à votre application {{site.data.keyword.Bluemix_notm}} et afficher la météo d'une zone identifiée par une géolocalisation à l'aide des [API REST d'Insights for Weather](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}.
 The Weather Company est le fournisseur le plus complet de données météorologiques passées et prévisionnelles. Les données
 capturées englobent toutes les formes d'événements climatiques, y compris les précipitations, les pressions barométriques, le vent et les orages.
 

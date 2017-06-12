@@ -23,14 +23,14 @@ The Weather Company (TWC) nelle tue applicazioni {{site.data.keyword.Bluemix}}.
 Prima di iniziare, crea un'applicazione web {{site.data.keyword.Bluemix_notm}} nel dashboard con un runtime come Liberty for Java. Attendi il provisioning della tua applicazione e aggiungi quindi il servizio Insights for Weather alla tua applicazione.
 
 Quando esegui il bind della tua applicazione a Insights for Weather, stai eseguendo il provisioning di un'istanza del servizio
-con credenziali univoche. La tua applicazione utilizza queste credenziali con le [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window} per richiamare i dati meteo.
+con credenziali univoche. La tua applicazione utilizza queste credenziali con le [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} per richiamare i dati meteo.
 
 Attieniti alla seguente procedura per richiamare le credenziali `VCAP_SERVICES` e integrare l'istanza del servizio con la tua applicazione.
 
 1. Passa alla pagina della panoramica della tua applicazione.
 2. Vai alla sezione **Variabili di ambiente**. Vengono visualizzate le informazioni su `VCAP_SERVICES` per ognuno dei tuoi servizi.
 3. Prendi nota dei valori nome utente e password dal servizio Insights for Weather.
-Per provare le [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window},
+Per provare le [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window},
 devi immettere queste credenziali quando ti vengono richieste all'accesso.
 Il tuo `VCAP_SERVICES` sarà simile al seguente esempio:
 
@@ -67,7 +67,7 @@ La mancata immissione delle credenziali corrette comporterà il ricevimento di u
 
 ## api
 {: #api}
-* [API REST](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## runtime compatibili
 {: #buildpacks}

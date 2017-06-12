@@ -22,13 +22,13 @@ lastupdated: "2016-07-01"
 在您開始之前，請先使用例如 Liberty for Java 的執行時期，在儀表板中建立一個 {{site.data.keyword.Bluemix_notm}} Web 應用程式。等待應用程式佈建，然後將 Insights for Weather 服務新增至您的應用程式。
 
 當您將應用程式連結至 Insights for Weather 時，所佈建的服務實例即隨附唯一認證。您的應用程式會使用這些認證與
-[REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} 來擷取天氣資料。
+[REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} 來擷取天氣資料。
 
 請遵循下列步驟以從 `VCAP_SERVICES` 擷取認證，並整合服務實例與您的應用程式。
 
 1. 導覽至應用程式概觀頁面。
 2. 跳至**環境變數**區段。即會顯示每一個服務的 `VCAP_SERVICES` 資訊。
-3. 記下 Insights for Weather 服務的使用者名稱及密碼值。若要嘗試 [REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}，則必須在系統提示您登入時輸入這些認證。您的 `VCAP_SERVICES` 類似於下列範例：
+3. 記下 Insights for Weather 服務的使用者名稱及密碼值。若要嘗試 [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}，則必須在系統提示您登入時輸入這些認證。您的 `VCAP_SERVICES` 類似於下列範例：
 
 ```
 {
@@ -61,7 +61,7 @@ lastupdated: "2016-07-01"
 
 ## API
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## 相容的執行時期
 

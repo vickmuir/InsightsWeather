@@ -19,7 +19,7 @@ meteorológicos de The Weather Company (TWC) en las aplicaciones
 {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-Puede añadir observaciones del tiempo y previsiones para su aplicación {{site.data.keyword.Bluemix_notm}} y mostrar los datos del tiempo para una zona especificada por una geolocalización utilizando las [API REST de Insights for Weather](https://twcservice.{APPDomain}/rest-api/){:new_window}.
+Puede añadir observaciones del tiempo y previsiones para su aplicación {{site.data.keyword.Bluemix_notm}} y mostrar los datos del tiempo para una zona especificada por una geolocalización utilizando las [API REST de Insights for Weather](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}.
 The Weather Company es el proveedor
 más completo de datos meteorológicos históricos y previstos. Se capturan datos para todas las formas de tiempo meteorológico,
 incluyendo precipitaciones, presión barométrica, viento y tormentas eléctricas.

@@ -24,14 +24,14 @@ meteorológicos de The Weather Company (TWC) en las aplicaciones
 Antes de empezar, cree una aplicación web de {{site.data.keyword.Bluemix_notm}} en el panel de control con un tiempo de ejecución como Liberty for Java. Espere que su app se suministre y, a continuación, añada el servicio Insights for Weather a la app. 
 
 Al enlazar la app a Insights for Weather, está
-suministrando una instancia de servicio con credenciales exclusivas. La app utiliza estas credenciales con las [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window} para recuperar datos meteorológicos. 
+suministrando una instancia de servicio con credenciales exclusivas. La app utiliza estas credenciales con las [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} para recuperar datos meteorológicos. 
 
 Siga estos pasos para recuperar las credenciales de `VCAP_SERVICES` e integrar la instancia de servicio con su app. 
 
 1. Vaya a la página de visión general de la aplicación.
 2. Vaya a la sección **Variables de entorno**. Se muestra la información `VCAP_SERVICES` para cada uno de los servicios.
 3. Anote los valores de nombre de usuario y contraseña del servicio Insights for Weather.
-Para probar las [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window},
+Para probar las [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window},
 debe introducir estas credenciales cuando se le solicite que inicie sesión.
 Su `VCAP_SERVICES` es parecido al siguiente ejemplo:
 
@@ -67,7 +67,7 @@ Si no se introducen las credenciales correctas, aparece un mensaje que indica qu
 
 ## api
 {: #api}
-* [API REST](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## Nodos de ejecución compatibles
 {: #buildpacks}

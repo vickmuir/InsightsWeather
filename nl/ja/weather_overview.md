@@ -17,7 +17,7 @@ lastupdated: "2016-07-01"
 {{site.data.keyword.weatherfull}} を使用して、The Weather Company (TWC) からの気象データをご使用の {{site.data.keyword.Bluemix}} アプリケーションに取り込みます。
 {:shortdesc}
 
-[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} を使用して、{{site.data.keyword.Bluemix_notm}} アプリケーションに気象観測および予報を追加し、地理的位置によって指定されたエリアの気象データを表示することができます。
+[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} を使用して、{{site.data.keyword.Bluemix_notm}} アプリケーションに気象観測および予報を追加し、地理的位置によって指定されたエリアの気象データを表示することができます。
 The Weather Company は、気象の履歴データおよび予測データの最も包括的なプロバイダーです。降水量、気圧、風、雷雨など、気象についてのあらゆる形式のデータを収集します。
 
 REST API を使用すると、以下の情報を取得できます。

@@ -22,7 +22,7 @@ aplicativos do
 {:shortdesc}
 
 É possível incluir observações e previsões de clima no aplicativo {{site.data.keyword.Bluemix_notm}} e exibir os dados de clima
-para uma área especificada por uma localização geográfica usando as [APIs REST do Insights for Weather](https://twcservice.{APPDomain}/rest-api/){:new_window}.
+para uma área especificada por uma localização geográfica usando as [APIs REST do Insights for Weather](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}.
 O Weather Company é o provedor de dados de clima históricos e previstos
 mais abrangente. Dados para todas as formas de clima,
 incluindo precipitação, pressão barométrica, vento e raios são capturados.

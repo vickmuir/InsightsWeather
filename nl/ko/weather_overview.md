@@ -19,7 +19,7 @@ lastupdated: "2016-07-01"
 {:shortdesc}
 
 사용자는 기상 관측 및 예보를 {{site.data.keyword.Bluemix_notm}} 애플리케이션에 추가할 수 있으며,
-[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}를
+[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}를
 사용하여 위치정보에서 지정하는 지역의 기상 데이터를 표시할 수 있습니다.
 "The Weather Company"는 과거와 미래의 기상 데이터를 제공하는 최고의 종합적 제공업체입니다. 강우량, 기압, 바람 및 뇌우를 포함하여 모든 형태의
 기상 데이터를 캡처합니다. 

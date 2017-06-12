@@ -23,14 +23,14 @@ lastupdated: "2016-07-01"
 
 アプリを Insights for Weather にバインドすると、固有の資格情報を使用して
 サービス・インスタンスがプロビジョンされます。アプリはこれらの資格情報を
-[REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} と一緒に使用して、気象データを取得します。
+[REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} と一緒に使用して、気象データを取得します。
 
 以下のステップに従って、`VCAP_SERVICES` から資格情報を取得し、アプリにサービス・インスタンスを統合します。
 
 1. アプリケーションの概要ページにナビゲートする
 2. **「環境変数」**セクションに進みます。各サービスの `VCAP_SERVICES` 情報が表示されます。
 3. Insights for Weather サービスのユーザー名とパスワードの値をメモします。
-[REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} を試行するには、
+[REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} を試行するには、
 ログインのプロンプトが出されたときにこれらの資格情報を入力する必要があります。
 `VCAP_SERVICES` は、以下の例のようになります。
 
@@ -65,7 +65,7 @@ lastupdated: "2016-07-01"
 
 ## API
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## 互換性のあるランタイム
 {: #buildpacks}
@@ -78,7 +78,7 @@ lastupdated: "2016-07-01"
 
 ## 一般
 {: #general}
-* [アプリケーションへのサービスの追加](/docs/services/reqnsi.html){: new_window}
-* [エンドツーエンド開発](https://console.{DomainName}/docs/cfapps/ee.html){: new_window}
+* [アプリケーションへのサービスの追加](/docs/reqnsi.html){: new_window}
+* [エンドツーエンド開発](https://console.{DomainName}/docs/services/cfapps/ee.html){: new_window}
 * [{{site.data.keyword.Bluemix_notm}} 価格設定シート](https://console.{DomainName}/pricing/){: new_window}
 * [{{site.data.keyword.Bluemix_notm}} 前提条件](https://developer.ibm.com/bluemix/support/#prereqs){: new_window}

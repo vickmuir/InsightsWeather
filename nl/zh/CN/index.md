@@ -21,13 +21,13 @@ lastupdated: "2016-07-01"
 
 开始之前，请先在仪表板中，使用运行时（如 Liberty for Java），创建 {{site.data.keyword.Bluemix_notm}} Web 应用程序。等待应用程序供应，然后向应用程序添加 Insights for Weather 服务。
 
-将应用程序绑定到 Insights for Weather 后，即可使用唯一凭证来供应服务实例。您的应用程序使用这些凭证与 [REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}，来检索天气数据。
+将应用程序绑定到 Insights for Weather 后，即可使用唯一凭证来供应服务实例。您的应用程序使用这些凭证与 [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}，来检索天气数据。
 
 请遵循下列步骤，从 `VCAP_SERVICES` 检索凭证，并将服务实例与应用程序相集成。
 
 1. 浏览至应用程序概述页面。
 2. 转至**环境变量**部分。这将显示每个服务的 `VCAP_SERVICES` 信息。
-3. 记下 Insights for Weather 服务中的用户名和密码值。要尝试使用 [REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}，必须在系统提示登录时输入这些凭证。`VCAP_SERVICES` 类似于以下示例：
+3. 记下 Insights for Weather 服务中的用户名和密码值。要尝试使用 [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}，必须在系统提示登录时输入这些凭证。`VCAP_SERVICES` 类似于以下示例：
 
 ```
 {
@@ -60,7 +60,7 @@ lastupdated: "2016-07-01"
 
 ## API
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## 兼容运行时 
 {: #buildpacks}

@@ -19,7 +19,7 @@ um Wetterdaten von "The Weather Company" (TWC) in Ihre {{site.data.keyword.Bluem
 {:shortdesc}
 
 Sie können Wetterbeobachtungen und -vorhersagen zu Ihrer {{site.data.keyword.Bluemix_notm}}-Anwendung hinzufügen und die Wetterdaten
-für ein durch Geoortungsdaten angegebenes Gebiet mit den [REST-APIs von Insights](https://twcservice.{APPDomain}/rest-api/){:new_window} anzeigen.
+für ein durch Geoortungsdaten angegebenes Gebiet mit den [REST-APIs von Insights](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} anzeigen.
 "The Weather Company" ist der Anbieter mit den umfassendsten Langzeitwetterdaten und Vorhersagen. Es werden Daten zu allen Wetterphänomenen erfasst, darunter Niederschlag, Luftdruck, Wind und Gewitter.
 
 Sie können die REST-APIs zum Abrufen der folgenden Informationen verwenden:

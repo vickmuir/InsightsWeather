@@ -21,14 +21,14 @@ A l'aide d'{{site.data.keyword.weatherfull}}, incorporez les données météorol
 
 Avant de commencer, créez une application Web {{site.data.keyword.Bluemix_notm}} dans le tableau de bord avec un environnement d'exécution tel que Liberty for Java. Attendez que votre application soit mise à disposition, puis ajoutez le service Insights for Weather à votre application.
 
-Lorsque vous liez votre application à Insights for Weather, vous fournissez des données d'identification uniques à une instance du service. Votre application utilise ces données d'identification avec les [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window} pour extraire des données météorologiques.
+Lorsque vous liez votre application à Insights for Weather, vous fournissez des données d'identification uniques à une instance du service. Votre application utilise ces données d'identification avec les [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} pour extraire des données météorologiques.
 
 Procédez comme suit pour extraire les données d'identification de `VCAP_SERVICES` et intégrer l'instance du service à votre application.
 
 1. Accédez à la page des propriétés de votre application.
 2. Accédez à la section **Variables d'environnement**. Les informations `VCAP_SERVICES` pour chacun de vos services s'affichent.
 3. Notez le nom d'utilisateur et le mot de passe du service Insights for Weather.
-Pour essayer les [API REST](https://twcservice.{APPDomain}/rest-api/){:new_window}, vous devez entrer ces données d'identification lorsque vous êtes invité à vous connecter.
+Pour essayer les [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}, vous devez entrer ces données d'identification lorsque vous êtes invité à vous connecter.
 Votre entrée `VCAP_SERVICES` est semblable à l'exemple suivant :
 
 ```
@@ -63,7 +63,7 @@ Si vous n'indiquez pas les données d'identification valides, un message "Unauth
 
 ## api
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## compatible runtimes
 {: #buildpacks}

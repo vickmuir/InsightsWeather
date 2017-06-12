@@ -17,7 +17,7 @@ lastupdated: "2016-07-01"
 使用 {{site.data.keyword.weatherfull}}，可以將來自 The Weather Company (TWC) 的天氣資料納入 {{site.data.keyword.Bluemix}} 應用程式中。
 {:shortdesc}
 
-您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}，將天氣觀測資料和預測新增至 {{site.data.keyword.Bluemix_notm}} 應用程式，以及顯示地理定位所指定區域的天氣資料。The Weather Company 提供最詳盡的歷史及預測天氣資料。將會擷取所有天氣型態（包括降雨、氣壓、風及雷雨）的資料。
+您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}，將天氣觀測資料和預測新增至 {{site.data.keyword.Bluemix_notm}} 應用程式，以及顯示地理定位所指定區域的天氣資料。The Weather Company 提供最詳盡的歷史及預測天氣資料。將會擷取所有天氣型態（包括降雨、氣壓、風及雷雨）的資料。
 
 您可以使用 REST API 來擷取下列資訊：
 

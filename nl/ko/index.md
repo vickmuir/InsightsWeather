@@ -24,14 +24,14 @@ lastupdated: "2016-07-01"
 앱이 프로비저닝될 때까지 기다린 후에 Insights for Weather 서비스를 앱에 추가하십시오. 
 
 앱을 Insights for Weather에 바인드할 때 사용자는 고유 신임 정보로 서비스 인스턴스를 프로비저닝합니다. 
-앱은 [REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}에서 이 신임 정보를 사용하여 기상 데이터를 검색합니다. 
+앱은 [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}에서 이 신임 정보를 사용하여 기상 데이터를 검색합니다. 
 
 `VCAP_SERVICES`에서 신임 정보를 검색하고 서비스 인스턴스를 앱과 통합하려면 다음 단계를 수행하십시오. 
 
 1. 애플리케이션 개요 페이지로 이동하십시오.
 2. **환경 변수** 섹션으로 이동하십시오. 각 서비스에 대한 `VCAP_SERVICES` 정보가 표시됩니다.
 3. Insights for Weather 서비스의 사용자 이름 및 비밀번호 값을 기록하십시오.
-[REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}를
+[REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}를
 시도하려면 로그인하는 프롬프트가 나타날 때 이 신임 정보를 입력해야 합니다.
 `VCAP_SERVICES`는 다음 예와 유사합니다. 
 
@@ -68,7 +68,7 @@ lastupdated: "2016-07-01"
 
 ## api
 {: #api}
-* [REST API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## 호환 가능 런타임 
 {: #buildpacks}

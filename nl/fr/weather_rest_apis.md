@@ -14,7 +14,7 @@ lastupdated: "2016-07-01"
 # Utilisation des API REST d'Insights for Weather
 {: #rest_apis}
 
-Vous pouvez utiliser les [API REST d'Insights for Weather](https://twcservice.{APPDomain}/rest-api/){:new_window} pour extraire des données météorologiques. Vous pouvez tester le fonctionnement des API et visualiser immédiatement les résultats pour accélérer la génération de vos applications.
+Vous pouvez utiliser les [API REST d'Insights for Weather](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} pour extraire des données météorologiques. Vous pouvez tester le fonctionnement des API et visualiser immédiatement les résultats pour accélérer la génération de vos applications.
 
 Dans la documentation de référence, cliquez sur **List Operations** pour afficher le détail de chaque opération.
 Lorsque vous entrez des paramètres et que vous cliquez sur **Try it out!**, vous pouvez être invité à indiquer vos données d'identification.

@@ -30,7 +30,7 @@ Ao ligar seu aplicativo ao Insights for
 Weather, você está provisionando uma instância de serviço com
 credenciais exclusivas. Seu aplicativo usa essas credenciais com
 o [REST
-APIs](https://twcservice.{APPDomain}/rest-api/){:new_window} para recuperar dados de clima.
+APIs](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} para recuperar dados de clima.
 
 Siga essas etapas para recuperar as credenciais do
 `VCAP_SERVICES` e integre a instância de serviço
@@ -39,7 +39,7 @@ com seu aplicativo.
 1. Navegue para a página de visão geral do seu aplicativo.
 2. Acesse a seção **Variáveis de Ambiente**. As informações de `VCAP_SERVICES` para cada um de seus serviços são exibidas.
 3. Anote os valores de nome do usuário e senha do serviço Insights for Weather.
-Para tentar as [APIs REST](https://twcservice.{APPDomain}/rest-api/){:new_window},
+Para tentar as [APIs REST](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window},
 deve-se inserir essas credenciais quando for solicitado a efetuar login.
 Seu `VCAP_SERVICES` é semelhante ao exemplo a seguir:
 
@@ -76,7 +76,7 @@ A falha ao inserir credenciais adequadas resultará em uma mensagem "Desautoriza
 
 ## API
 {: #api}
-* [API REST](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [API REST](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## tempos de execução compatíveis
 {: #buildpacks}

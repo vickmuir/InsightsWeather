@@ -14,7 +14,7 @@ lastupdated: "2016-07-01"
 # 使用 Insights for Weather REST API
 {: #rest_apis}
 
-您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} 來擷取氣候資料。您可以測試 API 作業並立即檢視結果，以協助您更快速地建置應用程式。
+您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} 來擷取氣候資料。您可以測試 API 作業並立即檢視結果，以協助您更快速地建置應用程式。
 
 從參考文件中，按一下**清單作業**以檢視每一個作業的詳細資料。在您指定參數並按一下**試試看！**後，系統可能會要求您提供認證。您必須提供來自 `VCAP_SERVICES` 環境變數的使用者名稱及密碼。開啟應用程式並按一下目錄中的**環境變數**，即可找到此資訊。
 

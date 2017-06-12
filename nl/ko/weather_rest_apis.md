@@ -14,7 +14,7 @@ lastupdated: "2016-07-01"
 # Insights for Weather REST API 사용
 {: #rest_apis}
 
-[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window}를 사용하여
+[Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}를 사용하여
 기상 데이터를 검색할 수 있습니다. API 연산을 테스트하고 즉시 결과를 봄으로써 신속하게 애플리케이션을 빌드하는 데 도움을 받을 수 있습니다. 
 
 각 연산에 대한 세부사항을 보려면 참조 문서에서 **연산 나열**을 클릭하십시오.

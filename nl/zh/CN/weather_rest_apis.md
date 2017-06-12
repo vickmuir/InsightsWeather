@@ -14,7 +14,7 @@ lastupdated: "2016-07-01"
 # 使用 Insights for Weather REST API
 {: #rest_apis}
 
-您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api/){:new_window} 来检索天气数据。可以测试 API 操作并立即查看结果，以帮助您更快地构建应用程序。
+您可以使用 [Insights for Weather REST API](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} 来检索天气数据。可以测试 API 操作并立即查看结果，以帮助您更快地构建应用程序。
 
 从参考文档中，单击**列出操作**可查看每个操作的详细信息。指定参数并单击**试试看！**时，系统可能会要求您提供凭证。必须提供 `VCAP_SERVICES` 环境变量中的用户名和密码。通过打开应用程序并单击目录中的**环境变量**，可以找到这些信息。
 

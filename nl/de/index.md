@@ -26,14 +26,14 @@ den Service 'Insights for Weather' zu Ihrer App hinzu.
 
 Wenn Sie Ihre App an Insights for Weather binden,
 stellen Sie eine Serviceinstanz mit eindeutigen Berechtigungsnachweisen bereit. Ihre App
-nutzt diese Berechtigungsnachweise mit den [REST-APIs](https://twcservice.{APPDomain}/rest-api/){:new_window}, um Wetterdaten abzurufen.
+nutzt diese Berechtigungsnachweise mit den [REST-APIs](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window}, um Wetterdaten abzurufen.
 
 Befolgen Sie diese Schritte, um die Berechtigungsnachweise aus `VCAP_SERVICES` abzurufen und die Serviceinstanz mit Ihrer App zu integrieren.
 
 1. Navigieren Sie zur Übersichtsseite der Anwendung.
 2. Rufen Sie den Abschnitt **Umgebungsvariablen** auf. Die `VCAP_SERVICES`-Informationen werden für jeden Ihrer Services angezeigt.
 3. Notieren Sie die Werte für Benutzername und Kennwort des Insights for Weather-Service.
-Um die [REST-APIs](https://twcservice.{APPDomain}/rest-api/){:new_window} zu testen, müssen Sie diese Berechtigungsnachweise eingeben,
+Um die [REST-APIs](https://twcservice.{APPDomain}/rest-api-deprecated/){:new_window} zu testen, müssen Sie diese Berechtigungsnachweise eingeben,
 wenn Sie bei der Anmeldung dazu aufgefordert werden.
 Ihre `VCAP_SERVICES` sehen ähnlich wie im folgenden Beispiel aus:
 
@@ -72,7 +72,7 @@ Antwortteil eine Nachricht über unberechtigten Zugriff ausgegeben.
 
 ## API
 {: #api}
-* [REST-API](https://twcservice.{APPDomain}/rest-api/){: new_window}
+* [REST-API](https://twcservice.{APPDomain}/rest-api-deprecated/){: new_window}
 
 ## Kompatible Laufzeiten
 {: #buildpacks}
