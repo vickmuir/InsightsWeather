@@ -1,1 +1,12 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
 
+{: .toc subcollection="InsightsWeather" audience="service" href="/docs/services/InsightsWeather/index.html" path="services/InsightsWeather"}
+Insights for Weather
+
+    {: .navgroup id="learn"}
+	  index.md
+    weather_overview.md
+    weather_rest_apis.md
+    weather_tutorials_samples.md
+    {: .navgroup-end}
